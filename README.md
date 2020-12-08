@@ -18,7 +18,7 @@ To check that we have python installed successfully we use the command `py -3 --
 **Unix**
 Depending on your os you might have diffrent ways open the terminal if you go into you search bar area and type terminal you should be able to get it up otherwise look up how to open the terminal on your system
 
-To check the installation type `python3.8 (or 9) --version` if python tells you the corret version it installed correctly
+To check the installation type `python3.8 --version` if python tells you the corret version it installed correctly
 
 ## Step 3 | The installation
 In order to use discord with python we need to install their api (application programming interface) so that we can talk to discord though python
@@ -27,7 +27,7 @@ This method agein differs from os to os
 This is the general idea
 ```py
 # Linux/macOS
-python3 -m pip install -U discord.py
+python3.8 -m pip install -U discord.py
 
 # Windows
 py -3 -m pip install -U discord.py
