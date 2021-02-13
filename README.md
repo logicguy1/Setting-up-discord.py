@@ -1,7 +1,7 @@
 # Setting-up-discord.py
 
 ## Step 1 | Python
-The first step in setting up discord.py is installing python, python is the languge d.py has been developed in. To start the installation head over (here)[python.org] hover over downloads and press download latest (or 3.x and above)
+The first step in setting up discord.py is installing python, python is the languge d.py has been developed in. To start the installation head over (here)[python.org] hover over downloads and press download you want to download python 3.8
 
 **IMPORTANT** When running the installer it is very important to tick the box that sais `Click here to enable PATH` since that will allow us to use python from everywhere 
 
@@ -13,10 +13,10 @@ We need to verify that python was installed correctly, the method of verificatio
 **Windows**
 First we need to open a terminal this is also the window from where we will run the bot
 To open up the terminal click `win + r` and a window named run should pup up, here your should type `cmd` and a black window should pup up, i will refer to this as the terminal
-To check that we have python installed successfully we use the command `py -3 --version` the terminal should tell us the version you installed from the website (note this only works for python 3.x since we gave the command the `-3` flag)
+To check that we have python installed successfully we use the command `py -3 --version` the terminal should tell us the version you installed from the website (note this only works for python 3.8 since we gave the command the `-3` flag)
 
 **Unix**
-Depending on your os you might have diffrent ways open the terminal if you go into you search bar area and type terminal you should be able to get it up otherwise look up how to open the terminal on your system
+Depending on your os you might have diffrent ways to the open the terminal if you go into you search bar area and type terminal you should be able to get it up otherwise look up how to open the terminal on your system
 
 To check the installation type `python3.8 --version` if python tells you the corret version it installed correctly
 
@@ -41,15 +41,15 @@ In order to run the code we need to navigate to our files using the terminal, th
 In the windows terminal we have 3 main commands
 ```
 dir (lists folders and files in your current directory)
-cd folder (change directory or move into a diffrent folder)
+cd <folder> (change directory or move into a diffrent folder)
 cd .. (move out of the current folder)
 ```
 
 **Unix**
 The unix terminal is a bit more complicated but i will go over the basics here
 ```
-ls (This lists all files in your current directory you can also add the -l tag to make it a list)
-cd folder (Changes the directory)
+ls (This lists all files in your current directory you can also add the -l flag to make it a list)
+cd <folder> (Changes the directory)
 cd .. (Moves you out of a folder)
 ```
 Using these 3 commands you should be able to move arround in the terminal, you want to move into your work folder 
@@ -59,12 +59,12 @@ Once you have located your files you want to run the code, this is agein diffren
 
 **Windows**
 ```
-py -3 file.py
+py -3 <file>.py
 ```
 
 **Unix**
 ```
-python3 file.py
+python3 <file>.py
 ```
 
 And once the bot tells you its ready it should go online
